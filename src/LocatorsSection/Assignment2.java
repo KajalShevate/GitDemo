@@ -20,6 +20,8 @@ public class Assignment2 {
 		driver.findElement(By.xpath("//input[@name='origin']")).sendKeys("new y");
 	//.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
 		driver.findElement(By.xpath("//a[@id='ui-id-58']")).click();
+		System.out.println("good job!");
+		System.out.println("byyee!");
 		
 		driver.close();
 	}
